@@ -1,7 +1,7 @@
 <style type="text/css">
 	html {font-size: 5px; }
 
-	#wrap {background-color: rgb(223, 255, 25); width:1280px; height: 16000px; margin: 0 auto;}
+	#wrap {background-color: rgb(223, 255, 25); width:1280px; height: 16100px; margin: 0 auto;}
 
 	#p1 {
 		background-color: white;
@@ -25,7 +25,7 @@
 		background-color: white;
 		border: 8px solid black;
 		width: 942px;
-		height: 12566px;
+		height: 12600px;
 		margin-right: auto;
 		margin-left: auto;
 		margin-bottom: 100px;}	
@@ -33,7 +33,7 @@
 	#main2{ 
 		border: 5px solid black;
 		width: 870px;
-		height: 12454px;
+		height: 12500px;
 		margin: 0 auto;
 		margin-top: 30px;
 		}
@@ -52,8 +52,8 @@
 		background-color: black;
 		border: solid 5px black;
 		width: 838px;
-		margin-top: 15px;
-		margin-bottom: 28px;
+		margin-top: 6px;
+		margin-bottom: 15px;
 		margin-right: auto;
 		margin-left: auto;
 		}
@@ -64,6 +64,7 @@
 		width: 838px;
 		margin-right: auto;
 		margin-left: auto;
+		margin-bottom: 3px;
 		}
 
 	.d {
@@ -75,13 +76,14 @@
 		}	
 
 	.e {
-		border: dashed 10px black;
-		width: 835px;
-		height: 0px;
+		border: none;
+		border-top: 20px dotted black;
+		height: 8px;
+		width: 838px;
 		margin-right: auto;
 		margin-left: auto;
-		margin-top: 20px;
-		margin-bottom: 28px;}	
+		margin-top: 30px;
+		margin-bottom: 30px;}	
 
 	#dream {font-size: 93px;
 			font-weight: bold;
@@ -103,12 +105,18 @@
 		margin-right: auto;
 		margin-left: auto;
 		margin-top: 25px;
+		margin-bottom: 30px;
 		font-family: 'Noto Sans KR', sans-serif;
 		}
 			 
 	#star {
 			margin-bottom: 100px;
 			}
+
+	#star2 {
+			margin-top: 100px;
+			margin-bottom: 100px;
+			}		
 
 	#track {
 			float: left;
@@ -132,20 +140,41 @@
 		margin-bottom: 40px;}
 
 	.title {
+		font-size: 18px;
 		font-weight: bold;
 		float: left;
 		margin-left: 65px;
 		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-bottom: 15px;
 		font-family: 'Noto Sans KR', sans-serif;
 	 	}
 
 	.text {
+		font-size: 15px;
 		float: left;
 		margin-left: 65px;
 		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-bottom: 15px;
 		font-family: 'Noto Sans KR', sans-serif;}
+
+	#date{
+		letter-spacing :5px;
+		float: right;
+		margin-top: 10px;
+		margin-right: 10px;
+		margin-left: 500px;
+		width: 390px;   
+		font-size: 30px;
+		font-family: 'Kanit', sans-serif;}
+
+	#t10{
+		letter-spacing :3px;
+		float: right;
+		margin-right: 30px;
+		margin-bottom: 60px;
+		font-size: 50px;
+		font-family: 'Kanit', sans-serif;
+		}
 
 
 </style>
